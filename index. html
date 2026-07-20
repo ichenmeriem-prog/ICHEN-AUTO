@@ -1,41 +1,53 @@
+ها هو الكود واجد سميتو "كوبي كولي" 👇 
+نسخيه كامل و لصقيه فـ `index.html`
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ICHEN AUTO</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ICHEN AUTO - منصة البيع و الخدمات</title>
+  <style>
+    body { font-family: Tahoma; background: #f4f4f4; margin: 0; text-align: center; }
+    header { background: #007bff; color: white; padding: 20px; }
+    header h1 { margin: 0; }
+    .products { display: flex; justify-content: center; gap: 15px; padding: 20px; flex-wrap: wrap; }
+    .card { background: white; padding: 15px; border-radius: 10px; width: 250px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .card h2 { color: #007bff; }
+    button { background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 16px; }
+    button:hover { background: #218838; }
+    footer { background: #333; color: white; padding: 15px; margin-top: 20px; }
+    .whatsapp { background: #25D366; color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; display: inline-block; margin-top: 10px; font-weight: bold; }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>ICHEN AUTO</h1>
+    <p>مرحبا بكم في منصة البيع و الخدمات</p>
+  </header>
 
-<header>
-<h1>ICHEN AUTO</h1>
-<p>Bienvenue chez ICHEN AUTO</p>
-</header>
+  <section class="products">
+    <div class="card">
+      <h2>زيت المحرك</h2>
+      <p>الثمن : 300 درهم</p>
+      <button>اطلب الآن</button>
+    </div>
 
-<section class="products">
-<div class="card">
-<h2>Produit 1</h2>
-<p>Prix : 300 DH</p>
-<button>Commander</button>
-</div>
+    <div class="card">
+      <h2>بطارية السيارة</h2>
+      <p>الثمن : 450 درهم</p>
+      <button>اطلب الآن</button>
+    </div>
 
-<div class="card">
-<h2>Produit 2</h2>
-<p>Prix : 450 DH</p>
-<button>Commander</button>
-</div>
+    <div class="card">
+      <h2>خدمة الصيانة</h2>
+      <p>الثمن : 600 درهم</p>
+      <button>اطلب الآن</button>
+    </div>
+  </section>
 
-<div class="card">
-<h2>Produit 3</h2>
-<p>Prix : 600 DH</p>
-<button>Commander</button>
-</div>
-</section>
-
-<footer>
-<p>WhatsApp : +212XXXXXXXXX</p>
-</footer>
-
+  <footer>
+    <p>للطلب والاستفسار تواصل معنا</p>
+    <a class="whatsapp" href="https://wa.me/212705619707">تواصل معنا عبر الواتساب</a>
+  </footer>
 </body>
 </html>
