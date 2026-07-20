@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ICHEN AUTO</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>ICHEN AUTO</h1>
+<p>Bienvenue chez ICHEN AUTO</p>
+</header>
+
+<section class="products">
+<div class="card">
+<h2>Produit 1</h2>
+<p>Prix : 300 DH</p>
+<button>Commander</button>
+</div>
+
+<div class="card">
+<h2>Produit 2</h2>
+<p>Prix : 450 DH</p>
+<button>Commander</button>
+</div>
+
+<div class="card">
+<h2>Produit 3</h2>
+<p>Prix : 600 DH</p>
+<button>Commander</button>
+</div>
+</section>
+
+<footer>
+<p>WhatsApp : +212XXXXXXXXX</p>
+</footer>
+
+</body>
+</html>
